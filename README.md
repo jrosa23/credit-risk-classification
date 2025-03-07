@@ -1,5 +1,21 @@
 # Credit Risk Classification Report
 
+To run the code:
+
+1. Ensure you have the required libraries installed:
+   ```bash
+   pip install numpy pandas scikit-learn
+   ```
+2. Place the `lending_data.csv` file in the `Resources` folder.
+3. Run the Jupyter Notebook `credit_risk_classification.ipynb` to train and evaluate the model.
+
+### Dependencies
+
+- Python 3.x
+- NumPy
+- Pandas
+- Scikit-learn
+
 This project focuses on building a machine learning model to classify loan applicants as either low-risk (healthy loan) or high-risk (high-risk loan) based on various financial and demographic factors. The model is trained using a dataset containing features such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The goal is to predict the loan status (0 for healthy loan, 1 for high-risk loan) with high accuracy and reliability.
 
 ### Dataset
@@ -22,25 +38,6 @@ The dataset used in this project is stored in the `Resources` folder and is name
 1. **Data Loading**: The dataset is loaded into a Pandas DataFrame for further processing.
 2. **Feature and Label Separation**: The target variable (`loan_status`) is separated from the features.
 3. **Train-Test Split**: The data is split into training and testing sets using `train_test_split` from `sklearn.model_selection`.
-
-### Usage
-
-To run the code:
-
-1. Ensure you have the required libraries installed:
-   ```bash
-   pip install numpy pandas scikit-learn
-   ```
-2. Place the `lending_data.csv` file in the `Resources` folder.
-3. Run the Jupyter Notebook `credit_risk_classification.ipynb` to train and evaluate the model.
-
-### Dependencies
-
-- Python 3.x
-- NumPy
-- Pandas
-- Scikit-learn
-
 
 ## Analysis
 
